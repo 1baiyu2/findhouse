@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  width: 100%;
+  height: 19rem;
+  background-color: #2f3130;
+  overflow: hidden;
+}
+footer .content {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+footer .content .in {
+  padding: 1.5rem 0rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #939494;
+  border-bottom: 1px solid gray;
+}
+footer .content .in a {
+  text-decoration: none;
+  color: #939494;
+}
+footer .content .tubiao {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+}
+footer .content .tubiao .biao {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+footer .content .tubiao .biao img {
+  width: 2.2rem;
+  height: 2.4rem;
+  margin-left: 1rem;
+}
+footer .content .tubiao .biao span {
+  margin-left: 1rem;
+  color: gray;
+  font-size: 1.4rem;
+}
+footer .content p:nth-of-type(2),
+footer .content p:nth-of-type(3) {
+  width: 100%;
+  text-align: center;
+  color: gray;
+  font-size: 1.4rem;
+}
