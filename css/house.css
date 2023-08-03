@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 5rem;
+}
+.header iframe {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #f5f5f5;
+}
+.daohang {
+  width: 100%;
+  height: 5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.daohang p {
+  font-size: 1.6rem;
+}
+.daohang p a {
+  text-decoration: none;
+  color: black;
+}
+.daohang P:nth-of-type(1) {
+  font-weight: 600;
+  margin-left: 2rem;
+}
+.list {
+  width: 100%;
+  overflow: hidden;
+}
+.list .houseList {
+  width: 100%;
+  margin: auto;
+  list-style: none;
+}
+.list li {
+  width: 86%;
+  margin: auto;
+  padding: 3rem 0;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ff8a00;
+  display: flex;
+}
+.list li .img {
+  width: 11rem;
+  height: 11rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.list li .img img {
+  height: 100%;
+}
+.list li .text {
+  margin-left: 1rem;
+}
+.list li .text h3 {
+  width: 21rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.list li .text p {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+.list li .text p strong {
+  display: inline-block;
+  margin-left: 5rem;
+  color: #ff8a00;
+}
+.list li .text p:nth-of-type(1) {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+.list li .text p:nth-of-type(3) {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+}
+.list li .text p:nth-of-type(3) a {
+  padding: 0.4rem 0.6rem;
+  color: #849aae;
+  background: #f4f7f9;
+  margin-right: 0.5rem;
+}
+.list li:nth-of-type(4) {
+  border-bottom: none !important;
+}
+.footer {
+  width: 100%;
+  height: 19rem;
+}
+.footer iframe {
+  width: 100%;
+  height: 100%;
+}
