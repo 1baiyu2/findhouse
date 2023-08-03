@@ -99,7 +99,24 @@
     <div class="footer">
         <iframe src="./public/footer.html" frameborder="0"></iframe>
     </div>
+    <div class="fixed">
+        <img class="close" src="./image/index/close.png" alt="">
+        <img class="download" src="./image/index/download.png" alt="">
+        <span>
+            <p>找房无忧</p>
+            <p>市场行情，一手掌握！</p>
+        </span>
+        <span class="free">免费下载</span>
+    </div>
 
 </body>
 
 </html>
+<script>
+    var close = document.querySelector('.close');
+
+    var fixed = document.querySelector('.fixed');
+    close.onclick = function () {
+        fixed.style.display = 'none';
+    }
+</script>
