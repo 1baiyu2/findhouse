@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 5rem;
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.daohang {
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+    p {
+        font-size: 1.6rem;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    P:nth-of-type(1) {
+        font-weight: 600;
+        margin-left: 2rem;
+
+    }
+}
+
+.sousuo {
+    width: 30rem;
+    height: 5rem;
+    margin: 2rem;
+    margin-left: 3.5rem;
+    border: 1px solid gray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+
+    input {
+        width: 80%;
+        height: 100%;
+        border: none;
+        outline: none;
+        padding-left: 1rem;
+
+    }
+
+    span {
+
+        width: 2rem;
+        height: 2rem;
+
+        padding-left: 1rem;
+        border-left: .2rem solid black;
+
+        img {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+
+}
+
+.fen {
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+
+    .fenlei {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+
+        li {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #666666;
+            padding-right: 1rem;
+            position: relative;
+
+            span {
+                width: 0px;
+                height: 0px;
+                display: inline-block;
+                border-top: 5px solid #ccc;
+                border-right: 5px solid transparent;
+                border-bottom: 5px solid transparent;
+                border-left: 5px solid transparent;
+                position: absolute;
+                top: .6rem;
+                right: 0;
+                // margin-top: 2rem;
+            }
+        }
+    }
+}
+
+.list {
+    width: 100%;
+    // background-color: rgb(255, 138, 0);
+    overflow: hidden;
+
+
+
+
+    .houseList {
+        width: 100%;
+        margin: auto;
+        list-style: none;
+        // background-color: white;
+    }
+
+    li {
+        width: 86%;
+        margin: auto;
+        // height: 16.8rem;
+        padding: 3rem 0;
+        box-sizing: border-box;
+        border-bottom: 2px solid rgb(255, 138, 0);
+        display: flex;
+
+
+        .img {
+            width: 11rem;
+            height: 11rem;
+            padding: 1rem;
+            box-sizing: border-box;
+
+            img {
+                // width: 100%;
+                height: 100%;
+            }
+        }
+
+        .text {
+            margin-left: 1rem;
+
+            h4 {
+                width: 21rem;
+                font-size: 1.6rem;
+                font-weight: 600;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+
+            p {
+                margin-top: .6rem;
+                font-size: 1.4rem;
+
+                strong {
+                    display: inline-block;
+                    margin-left: 5rem;
+                    color: rgb(255, 138, 0);
+                }
+            }
+
+
+
+            p:nth-of-type(3) {
+                margin-top: .8rem !important;
+
+                span {
+
+                    color: rgb(109, 167, 25);
+                    padding: .3rem;
+                    border: 1px solid rgb(109, 167, 25);
+                }
+            }
+
+            //     width: 100%;
+            //     margin-top: 1rem;
+            //     display: flex;
+
+            //     a {
+            //         padding: .4rem .6rem;
+            //         color: #849aae;
+            //         background: #f4f7f9;
+            //         margin-right: .5rem;
+            //     }
+
+            // }
+
+
+        }
+    }
+
+    li:last-of-type {
+
+        border-bottom: none !important;
+
+    }
+
+}
+
+// 写一个蒙版
+.mengban {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .3;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.contnone {
+    display: none !important;
+}
+
+// 写一个查询
+.color {
+    color: rgb(255, 138, 0) !important;
+}
+
+.chaxun {
+    width: 100%;
+    // height: 5rem;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    .fen1 {
+        width: 100%;
+        height: 5rem;
+        background-color: white;
+
+        .fenlei1 {
+            width: 80%;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            list-style: none;
+            align-items: center;
+            justify-content: space-between;
+
+            li {
+                font-size: 2.2rem;
+                font-weight: 800;
+                color: #666666;
+                padding-right: 1rem;
+                position: relative;
+
+                span {
+                    width: 0px;
+                    height: 0px;
+                    display: inline-block;
+                    border-top: 5px solid #ccc;
+                    border-right: 5px solid transparent;
+                    border-bottom: 5px solid transparent;
+                    border-left: 5px solid transparent;
+                    position: absolute;
+                    top: .6rem;
+                    right: 0;
+                    // margin-top: 2rem;
+                }
+            }
+
+            .active {
+                color: rgb(255, 138, 0);
+
+                span {
+                    width: 0px;
+                    height: 0px;
+                    display: inline-block;
+                    border-bottom: 5px solid rgb(255, 138, 0);
+                    border-right: 5px solid transparent;
+                    border-top: 5px solid transparent;
+                    border-left: 5px solid transparent;
+                    position: absolute;
+                    top: .6rem;
+                    right: 0;
+
+                }
+            }
+        }
+
+        .cont {
+            width: 100%;
+            display: flex;
+            background-color: rgb(240, 240, 240);
+
+
+            .quyu {
+                flex: 1;
+                // background-color: pink;
+
+                li {
+                    width: 100%;
+                    height: 6rem;
+                    text-indent: 3.7rem;
+                    font-size: 2.2rem;
+                    line-height: 6rem;
+                    font-weight: 800;
+                    // color: rgb(255, 138, 0);
+                }
+
+                li:nth-of-type(1) {
+                    background-color: white;
+                }
+
+
+            }
+
+            .didian {
+                flex: 3;
+                display: flex;
+                flex-wrap: wrap;
+                background-color: white;
+
+                li {
+                    width: 50%;
+                    text-align: center;
+                    font-size: 1.8rem;
+                    padding: 2rem 0rem;
+                    color: #666666;
+                }
+            }
+        }
+    }
+}
+
+.yuezu {
+    width: 100%;
+    background-color: white;
+
+    li {
+        width: 80%;
+        margin: auto;
+        font-size: 1.6rem;
+        padding: 2rem 0rem;
+        color: #666666;
+        border-bottom: 1px solid gray;
+
+    }
+}
+
+.fangxing {
+    width: 100%;
+    background-color: white;
+
+    li {
+        width: 80%;
+        margin: auto;
+        padding: 1.5rem 0px;
+        font-size: 1.4rem;
+        border-bottom: .1rem solid gray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+            width: 1.6rem;
+            height: 1.6rem;
+            border: 1px solid gray;
+            margin-right: 2rem;
+
+        }
+
+        .select {
+            background: url(../image/SecondHandList/ok.png)no-repeat center center;
+            background-size: 1.6rem 1.5rem;
+            border: 1px solid rgb(255, 138, 0);
+
+        }
+    }
+
+    li:nth-of-type(6) {
+        border: none !important;
+    }
+
+    li:last-of-type {
+        border: none !important;
+        background-color: rgb(255, 138, 0);
+        justify-content: center;
+    }
+
+}
+
+.more {
+    width: 80%;
+    height: 20rem;
+    margin: auto;
+    border: 1px solid gray;
+}
+
+.footer {
+    width: 100%;
+    height: 19rem;
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}

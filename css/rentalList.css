@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 5rem;
+}
+.header iframe {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #f5f5f5;
+}
+.daohang {
+  width: 100%;
+  height: 5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.daohang p {
+  font-size: 1.6rem;
+}
+.daohang p a {
+  text-decoration: none;
+  color: black;
+}
+.daohang P:nth-of-type(1) {
+  font-weight: 600;
+  margin-left: 2rem;
+}
+.sousuo {
+  width: 30rem;
+  height: 5rem;
+  margin: 2rem;
+  margin-left: 3.5rem;
+  border: 1px solid gray;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.sousuo input {
+  width: 80%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+}
+.sousuo span {
+  width: 2rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border-left: 0.2rem solid black;
+}
+.sousuo span img {
+  width: 2rem;
+  height: 2rem;
+}
+.fen {
+  width: 100%;
+  height: 5rem;
+  background-color: white;
+}
+.fen .fenlei {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.fen .fenlei li {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #666666;
+  padding-right: 1rem;
+  position: relative;
+}
+.fen .fenlei li span {
+  width: 0px;
+  height: 0px;
+  display: inline-block;
+  border-top: 5px solid #ccc;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: absolute;
+  top: 0.6rem;
+  right: 0;
+}
+.list {
+  width: 100%;
+  overflow: hidden;
+}
+.list .houseList {
+  width: 100%;
+  margin: auto;
+  list-style: none;
+}
+.list li {
+  width: 86%;
+  margin: auto;
+  padding: 3rem 0;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ff8a00;
+  display: flex;
+}
+.list li .img {
+  width: 11rem;
+  height: 11rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.list li .img img {
+  height: 100%;
+}
+.list li .text {
+  margin-left: 1rem;
+}
+.list li .text h4 {
+  width: 21rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.list li .text p {
+  margin-top: 0.6rem;
+  font-size: 1.4rem;
+}
+.list li .text p strong {
+  display: inline-block;
+  margin-left: 5rem;
+  color: #ff8a00;
+}
+.list li .text p:nth-of-type(3) {
+  margin-top: 0.8rem !important;
+}
+.list li .text p:nth-of-type(3) span {
+  color: #6da719;
+  padding: 0.3rem;
+  border: 1px solid #6da719;
+}
+.list li:last-of-type {
+  border-bottom: none !important;
+}
+.mengban {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+ul {
+  list-style: none;
+}
+.contnone {
+  display: none !important;
+}
+.color {
+  color: #ff8a00 !important;
+}
+.chaxun {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.chaxun .fen1 {
+  width: 100%;
+  height: 5rem;
+  background-color: white;
+}
+.chaxun .fen1 .fenlei1 {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.chaxun .fen1 .fenlei1 li {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #666666;
+  padding-right: 1rem;
+  position: relative;
+}
+.chaxun .fen1 .fenlei1 li span {
+  width: 0px;
+  height: 0px;
+  display: inline-block;
+  border-top: 5px solid #ccc;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: absolute;
+  top: 0.6rem;
+  right: 0;
+}
+.chaxun .fen1 .fenlei1 .active {
+  color: #ff8a00;
+}
+.chaxun .fen1 .fenlei1 .active span {
+  width: 0px;
+  height: 0px;
+  display: inline-block;
+  border-bottom: 5px solid #ff8a00;
+  border-right: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: absolute;
+  top: 0.6rem;
+  right: 0;
+}
+.chaxun .fen1 .cont {
+  width: 100%;
+  display: flex;
+  background-color: #f0f0f0;
+}
+.chaxun .fen1 .cont .quyu {
+  flex: 1;
+}
+.chaxun .fen1 .cont .quyu li {
+  width: 100%;
+  height: 6rem;
+  text-indent: 3.7rem;
+  font-size: 2.2rem;
+  line-height: 6rem;
+  font-weight: 800;
+}
+.chaxun .fen1 .cont .quyu li:nth-of-type(1) {
+  background-color: white;
+}
+.chaxun .fen1 .cont .didian {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.chaxun .fen1 .cont .didian li {
+  width: 50%;
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 2rem 0rem;
+  color: #666666;
+}
+.yuezu {
+  width: 100%;
+  background-color: white;
+}
+.yuezu li {
+  width: 80%;
+  margin: auto;
+  font-size: 1.6rem;
+  padding: 2rem 0rem;
+  color: #666666;
+  border-bottom: 1px solid gray;
+}
+.fangxing {
+  width: 100%;
+  background-color: white;
+}
+.fangxing li {
+  width: 80%;
+  margin: auto;
+  padding: 1.5rem 0px;
+  font-size: 1.4rem;
+  border-bottom: 0.1rem solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fangxing li span {
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 1px solid gray;
+  margin-right: 2rem;
+}
+.fangxing li .select {
+  background: url(../image/SecondHandList/ok.png) no-repeat center center;
+  background-size: 1.6rem 1.5rem;
+  border: 1px solid #ff8a00;
+}
+.fangxing li:nth-of-type(6) {
+  border: none !important;
+}
+.fangxing li:last-of-type {
+  border: none !important;
+  background-color: #ff8a00;
+  justify-content: center;
+}
+.more {
+  width: 80%;
+  height: 20rem;
+  margin: auto;
+  border: 1px solid gray;
+}
+.footer {
+  width: 100%;
+  height: 19rem;
+}
+.footer iframe {
+  width: 100%;
+  height: 100%;
+}
