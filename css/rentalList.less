@@ -221,6 +221,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    display: none;
 }
 
 ul {
@@ -243,6 +244,7 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
+    display: none;
 
     .fen1 {
         width: 100%;
@@ -401,11 +403,51 @@ ul {
 
 }
 
+.cont:nth-of-type(4) {
+    flex-direction: column;
+
+    button {
+        width: 80%;
+        height: 4rem;
+        margin: 3rem auto;
+        background-color: rgb(255, 138, 0);
+        border: none !important;
+    }
+}
+
 .more {
     width: 80%;
-    height: 20rem;
-    margin: auto;
-    border: 1px solid gray;
+    height: 15rem;
+    margin: 1rem auto;
+    // background-color: aquamarine;
+
+
+
+    p {
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+
+    ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 3rem;
+        border-bottom: 1px solid gray;
+
+
+        li {
+            margin-left: 1rem;
+            width: 6rem;
+            height: 3rem;
+            margin-top: 2rem;
+            // background-color: aquamarine;
+            text-align: center;
+            font-size: 1.4rem;
+            line-height: 3rem;
+            border: 1px solid gray;
+        }
+    }
 }
 
 .footer {
