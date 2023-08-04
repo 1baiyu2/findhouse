@@ -6,7 +6,8 @@ function setRem() {
 
     var html = document.querySelector('html');
     // console.log(html);
-    html.style.fontSize = (clientWidth / uiWidth) * 10 + 'px'
+    html.style.fontSize = (clientWidth / uiWidth) * 10 + 'px';
+
 }
 window.onresize = setRem;
 window.onload = setRem;

@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.box .header iframe {
+  width: 100%;
+  height: 5rem;
+}
+.box .position {
+  width: 100%;
+  line-height: 4rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  background-color: white;
+}
+.box .position p a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+}
+.box .position p > a:nth-of-type(1) {
+  font-weight: 600;
+}
+.box .pic {
+  position: relative;
+  font-size: 0px;
+}
+.box .pic .images {
+  width: 100%;
+}
+.box .pic p {
+  width: 8rem;
+  line-height: 5rem;
+  background-color: rgba(10, 10, 10, 0.4);
+  position: absolute;
+  right: 0rem;
+  bottom: 0rem;
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.box .attention {
+  display: flex;
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
+  border-bottom: 0.1rem solid #d2d1d1;
+  background-color: white;
+}
+.box .attention h1 {
+  font-size: 2.3rem;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box .attention a {
+  width: 15%;
+  padding: 0px 1.5rem;
+  background: url(../image/rentalList/xin.png) no-repeat 2.2rem 1rem;
+  background-size: 2rem;
+  padding-top: 3.5rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #c2c0c0;
+}
+.box .rent ul {
+  list-style: none;
+  display: flex;
+  background-color: #f5f5f5;
+  justify-content: space-between;
+  padding: 0px 1.5rem;
+  border-bottom: 0.1rem solid #d2d1d1;
+}
+.box .rent ul > li {
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+}
+.box .rent ul > li > p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.box .rent ul > li > span {
+  color: #ff8a00;
+}
+.box .year {
+  padding: 0rem 2.5rem;
+  background-color: white;
+  border-bottom: 0.1rem solid #d2d1d1;
+}
+.box .year p {
+  padding: 2rem 0rem;
+  display: flex;
+  border-bottom: 0.1rem solid #d2d1d1;
+}
+.box .year p a {
+  width: 50%;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: black;
+}
+.box .year p span {
+  width: 50%;
+  font-size: 1.6rem;
+}
+.box .common {
+  margin: 1rem 1rem;
+  background-color: white;
+  border: 0.1rem solid #d2d1d1;
+}
+.box .common h1 {
+  font-size: 2.3rem;
+  color: #ff8a00;
+  padding: 1.5rem 2rem;
+  box-sizing: border-box;
+  background: url(../image/rentalList/right.png) no-repeat 33rem center;
+  background-size: 1rem;
+  border-bottom: 1px solid #d2d1d1;
+}
+.box .common p {
+  font-size: 1.4rem;
+  padding: 1.5rem 1rem;
+  line-height: 2.5rem;
+}
+.box .site {
+  margin: 1rem 1rem;
+  background-color: white;
+  border: 0.1rem solid #d2d1d1;
+}
+.box .site h1 {
+  font-size: 2.3rem;
+  color: #ff8a00;
+  padding: 1.5rem 2rem;
+  box-sizing: border-box;
+  background: url(../image/rentalList/right.png) no-repeat 33rem center;
+  background-size: 1rem;
+  border-bottom: 1px solid #d2d1d1;
+}
+.box .site .map {
+  border: 0.1rem solid #d2d1d1;
+  margin-bottom: 1rem;
+  margin: 1rem;
+  box-sizing: border-box;
+}
+.box .site .map h2 {
+  font-size: 1.8rem;
+  padding: 1rem 0.5rem;
+}
+.box .site .map img {
+  width: 100%;
+}
+.box .history p span {
+  color: #ff8a00;
+}
+.box .history .date {
+  display: block;
+  font-size: 1.4rem;
+  padding: 1.5rem 1rem;
+}
+.box .messages {
+  display: flex;
+  background-color: white;
+  padding: 1rem;
+  height: 5em;
+}
+.box .messages i {
+  width: 5rem;
+  background: url(../image/rentalList/man.png) no-repeat 0px 0px;
+  background-size: contain;
+  margin-right: 1rem;
+}
+.box .messages .name {
+  display: flex;
+  flex-direction: column;
+}
+.box .messages .name p {
+  font-size: 1.4rem;
+}
+.box .messages .name span {
+  font-size: 1.4rem;
+}
+.box .messages .icon {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.box .messages .icon span {
+  display: inline-block;
+  width: 4rem;
+  height: 100%;
+  box-sizing: border-box;
+  background: url(../image/rentalList/icon1.png) no-repeat 0.3rem 0px;
+  background-size: 3.6rem;
+  padding-top: 3.5rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #5dcb96;
+}
+.box .messages .icon > span:nth-of-type(2) {
+  background: url(../image/rentalList/icon2.png) no-repeat 0.3rem 0px;
+  background-size: 3.6rem;
+  margin: 0px 2.5rem;
+  color: #5baede;
+}
+.box .footer iframe {
+  width: 100%;
+  height: 19rem;
+}
