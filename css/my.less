@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.header {
+    width: 100%;
+    height: 5rem;
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.imgs {
+    width: 100%;
+    height: 25rem;
+    position: relative;
+    background-color: white;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    p {
+        position: absolute;
+        width: 12rem;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 12rem;
+        color: white;
+        font-size: 1.6rem;
+        background: url(../image/my/urse2.png) no-repeat center 0px;
+        background-size: 7rem 7rem;
+
+        span {
+            padding: 1rem 2rem;
+            border: 1px solid rgb(231, 231, 231);
+        }
+    }
+
+    .xiazai {
+        width: 10rem;
+        height: 5rem;
+        // background-color: pink;
+        position: absolute;
+        right: 1rem;
+        top: 0rem;
+        display: flex;
+
+        .icon {
+            background-color: pink;
+            line-height: 7rem;
+        }
+
+        .icon:nth-of-type(1) {
+            padding: 1rem 1rem;
+            background: url(../image/my/urse.png) no-repeat center;
+            background-size: 2rem 2rem;
+            font-size: 1.4rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        .icon:nth-of-type(2) {
+            padding: 1rem 1rem;
+            background: url(../image/my/down.png) no-repeat center;
+            background-size: 2rem 2rem;
+            font-size: 1.4rem;
+            color: white;
+            text-decoration: none;
+        }
+
+
+    }
+
+}
+
+
+
+.xinxibox {
+    background-color: white;
+}
+
+.xinxi {
+    width: 100%;
+    list-style: none;
+
+    li {
+        width: 90%;
+        margin: 0 auto;
+        height: 5rem;
+        line-height: 5rem;
+        background: url(../image/my/right.png) no-repeat right center;
+        background-size: 1rem 2rem;
+        border-bottom: 1px solid rgb(231, 231, 231);
+
+
+        a {
+            text-decoration: none;
+            font-size: 1.6rem;
+            color: gray;
+            display: inline-block;
+            height: 100%;
+            padding-left: 3rem;
+        }
+
+    }
+
+    li:nth-of-type(1) {
+        a {
+            background: url(../image/my/icon1.png) no-repeat 0px center;
+            background-size: 2rem 2rem;
+        }
+
+    }
+
+    li:nth-of-type(2) {
+        a {
+            background: url(../image/my/icon2.png) no-repeat 0px center;
+            background-size: 2rem 2rem;
+        }
+
+    }
+
+    li:nth-of-type(3) {
+        a {
+            background: url(../image/my/icon3.png) no-repeat 0px center;
+            background-size: 2rem 2rem;
+        }
+
+    }
+
+    li:last-of-type {
+        border: none !important;
+
+        a {
+            background: url(../image/my/icon4.png) no-repeat 0px center;
+            background-size: 2rem 2rem;
+        }
+    }
+}

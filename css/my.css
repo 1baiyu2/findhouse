@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: #f5f5f5;
+}
+.header {
+  width: 100%;
+  height: 5rem;
+}
+.header iframe {
+  width: 100%;
+  height: 100%;
+}
+.imgs {
+  width: 100%;
+  height: 25rem;
+  position: relative;
+  background-color: white;
+}
+.imgs img {
+  width: 100%;
+  height: 100%;
+}
+.imgs p {
+  position: absolute;
+  width: 12rem;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 12rem;
+  color: white;
+  font-size: 1.6rem;
+  background: url(../image/my/urse2.png) no-repeat center 0px;
+  background-size: 7rem 7rem;
+}
+.imgs p span {
+  padding: 1rem 2rem;
+  border: 1px solid #e7e7e7;
+}
+.imgs .xiazai {
+  width: 10rem;
+  height: 5rem;
+  position: absolute;
+  right: 1rem;
+  top: 0rem;
+  display: flex;
+}
+.imgs .xiazai .icon {
+  background-color: pink;
+  line-height: 7rem;
+}
+.imgs .xiazai .icon:nth-of-type(1) {
+  padding: 1rem 1rem;
+  background: url(../image/my/urse.png) no-repeat center;
+  background-size: 2rem 2rem;
+  font-size: 1.4rem;
+  color: white;
+  text-decoration: none;
+}
+.imgs .xiazai .icon:nth-of-type(2) {
+  padding: 1rem 1rem;
+  background: url(../image/my/down.png) no-repeat center;
+  background-size: 2rem 2rem;
+  font-size: 1.4rem;
+  color: white;
+  text-decoration: none;
+}
+.xinxibox {
+  background-color: white;
+}
+.xinxi {
+  width: 100%;
+  list-style: none;
+}
+.xinxi li {
+  width: 90%;
+  margin: 0 auto;
+  height: 5rem;
+  line-height: 5rem;
+  background: url(../image/my/right.png) no-repeat right center;
+  background-size: 1rem 2rem;
+  border-bottom: 1px solid #e7e7e7;
+}
+.xinxi li a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: gray;
+  display: inline-block;
+  height: 100%;
+  padding-left: 3rem;
+}
+.xinxi li:nth-of-type(1) a {
+  background: url(../image/my/icon1.png) no-repeat 0px center;
+  background-size: 2rem 2rem;
+}
+.xinxi li:nth-of-type(2) a {
+  background: url(../image/my/icon2.png) no-repeat 0px center;
+  background-size: 2rem 2rem;
+}
+.xinxi li:nth-of-type(3) a {
+  background: url(../image/my/icon3.png) no-repeat 0px center;
+  background-size: 2rem 2rem;
+}
+.xinxi li:last-of-type {
+  border: none !important;
+}
+.xinxi li:last-of-type a {
+  background: url(../image/my/icon4.png) no-repeat 0px center;
+  background-size: 2rem 2rem;
+}

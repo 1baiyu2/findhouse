@@ -15,8 +15,8 @@
         <iframe src="./public/header.html" frameborder="0"></iframe>
     </div>
     <div class="daohang">
-        <p><a href="#">首页 > </a></p>
-        <p><a href="#">我的 > </a></p>
+        <p><a href="./index.html">首页 > </a></p>
+        <p><a id="tiao" href="./my.html">我的 > </a></p>
         <p><a href="#">我关注的小区</a></p>
     </div>
     <section class="list">
@@ -81,3 +81,12 @@
 </body>
 
 </html>
+<script>
+    // 如果登录成功了 那么点击我的会跳转到我的已经登录的状态
+    var tiao = document.querySelector('#tiao');
+    if (localStorage.getItem('istrue')) {
+        tiao.href = '../mylogin.html';
+    } else {
+        tiao.href = '../my.html';
+    }
+</script>

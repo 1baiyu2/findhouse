@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>login</title>
+    <title>fortgetPwd</title>
     <link rel="stylesheet" href="./css/login.css">
     <script src="./js/setRem.js"></script>
 </head>
@@ -16,12 +16,9 @@
     </div>
     <div class="daohang">
         <p><a href="./index.html">首页 > </a></p>
-        <p><a id="tiao" href="./my.html">我的 > </a></p>
-        <p><a href="#">注册</a></p>
+        <p><a href="#">找回密码 </a></p>
+
     </div>
-
-
-
     <div class="mima ">
         <form action="#">
             <input id="username" type="text" placeholder="请输入手机号码">
@@ -30,9 +27,10 @@
 
         </form>
         <input id="yanzhen" type="text" placeholder="请输入短信中的验证码">
-        <input id="pwd" type="password" placeholder="请输入密码">
+        <input id="pwd" type="password" placeholder="请输入新密码">
+        <input id="pwd1" type="password" placeholder="确认新密码">
         <br>
-        <button class="denglu yanzhengm">立即注册</button>
+        <button class="denglu yanzhengm ">提交</button>
     </div>
     <p class="tishi"></p>
 
@@ -42,13 +40,4 @@
 </body>
 
 </html>
-<script src="./js/login.js"></script>
-<script>
-    // 如果登录成功了 那么点击我的会跳转到我的已经登录的状态
-    var tiao = document.querySelector('#tiao');
-    if (localStorage.getItem('istrue')) {
-        tiao.href = '../mylogin.html';
-    } else {
-        tiao.href = '../my.html';
-    }
-</script>
+<script src="./js/fortget.js"></script>

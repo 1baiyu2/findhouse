@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.header {
+    width: 100%;
+    height: 5rem;
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.daohang {
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+    p {
+        font-size: 1.6rem;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    P:nth-of-type(1) {
+        font-weight: 600;
+        margin-left: 2rem;
+
+    }
+}
+
+.imgs {
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    background-color: white;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 12rem;
+        color: white;
+        font-size: 1.6rem;
+        background: url(../image/my/urse2.png) no-repeat center 0px;
+        background-size: 7rem 7rem;
+    }
+
+}
+
+.xinxibox {
+    background-color: white;
+}
+
+.xinxi {
+    width: 100%;
+    list-style: none;
+
+    li {
+        width: 90%;
+        margin: 0 auto;
+        height: 5rem;
+        line-height: 5rem;
+        background: url(../image/my/right.png) no-repeat right center;
+        background-size: 1rem 2rem;
+        border-bottom: 1px solid rgb(231, 231, 231);
+
+
+        a {
+            text-decoration: none;
+            font-size: 1.6rem;
+            color: gray;
+            display: inline-block;
+            height: 100%;
+            padding-left: 3rem;
+        }
+
+    }
+
+    li:nth-of-type(1) {
+        a {
+            background: url(../image/my/icon1.png) no-repeat 0px center;
+            background-size: 2rem 2rem;
+        }
+
+    }
+
+    li:nth-of-type(2) {
+        a {
+            background: url(../image/my/icon2.png) no-repeat 0px center;
+            background-size: 2rem 2rem;
+        }
+
+    }
+
+    li:nth-of-type(3) {
+        a {
+            background: url(../image/my/icon3.png) no-repeat 0px center;
+            background-size: 2rem 2rem;
+        }
+
+    }
+
+    li:last-of-type {
+        border: none !important;
+
+        a {
+            background: url(../image/my/icon4.png) no-repeat 0px center;
+            background-size: 2rem 2rem;
+        }
+    }
+}
+
+button {
+    width: 80%;
+    height: 5rem;
+    border: none;
+    margin-left: 10%;
+    margin-top: 3rem;
+    background-color: white;
+    font-size: 1.6rem;
+    color: rgb(255, 138, 0);
+}

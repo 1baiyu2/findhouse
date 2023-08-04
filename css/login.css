@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.header {
+  width: 100%;
+  height: 5rem;
+}
+.header iframe {
+  width: 100%;
+  height: 100%;
+}
+.daohang {
+  width: 100%;
+  height: 5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.daohang p {
+  font-size: 1.4rem;
+}
+.daohang p a {
+  text-decoration: none;
+  color: black;
+}
+.daohang P:nth-of-type(1) {
+  font-weight: 600;
+  margin-left: 2rem;
+}
+input {
+  width: 100%;
+  height: 5rem;
+  border: 1px solid #e7e7e7;
+  outline: none;
+  text-indent: 2rem;
+}
+.denglu {
+  width: 80%;
+  margin-left: 10%;
+  height: 5rem;
+  font-size: 2.2rem;
+  color: white;
+  background-color: #ff8a00;
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+form {
+  width: 100%;
+  height: 5rem;
+  border: 1px solid #e7e7e7;
+}
+form input:nth-of-type(1) {
+  width: 70% !important;
+  border: none !important;
+}
+form span {
+  font-size: 1.4rem;
+  color: gray;
+  padding: 0.8rem;
+  border: 1px solid #e7e7e7;
+}
+.yanzhengm {
+  margin-top: 1.5rem;
+}
+.yanzheng {
+  display: none;
+}
+.tishi {
+  margin-top: 1rem;
+  margin-left: 5%;
+  color: red;
+  font-size: 1.4rem;
+}
