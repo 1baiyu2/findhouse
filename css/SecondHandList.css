@@ -1,0 +1,12 @@
+.sousuo input {
+  font-size: 1.6rem;
+  color: #b0b0b0;
+}
+.houseList .houseitem {
+  color: #b0b0b0;
+}
+.houseList .houseitem span {
+  color: #ff8a00;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
