@@ -10,8 +10,6 @@ var tishi = document.querySelector('.tishi');
 var reg = /^1[3456789]\d{9}$/;
 // 校验密码  
 var reg1 = /^[a-zA-Z0-9]{6,}$/;
-var s = 'gzi123456';
-console.log(reg1.test(s));
 var timer;
 var num = 60;
 

@@ -31,7 +31,9 @@ for (var i = 0; i < fenlei1li.length; i++) {
     fenlei1li[i].setAttribute('index', i);
     fenlei1li[i].onclick = function () {
         var ind = this.getAttribute('index');
+        console.log('ind' + ind);
         for (var j = 0; j < fenlei1li.length; j++) {
+            console.log('j' + j);
             fenlei1li[j].classList.remove('active')
             cont[j].classList.add('contnone');
         }
@@ -51,6 +53,11 @@ for (var i = 0; i < fenleili.length; i++) {
         var ind = this.getAttribute('index');
         mengban.style.display = 'block';
         chaxun.style.display = 'block';
+        for (var j = 0; j < fenlei1li.length; j++) {
+            // console.log('j' + j);
+            fenlei1li[j].classList.remove('active')
+            cont[j].classList.add('contnone');
+        }
 
         fenlei1li[ind].classList.add('active')
         cont[ind].classList.remove('contnone');
