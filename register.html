@@ -11,7 +11,53 @@
 </head>
 
 <body>
+    <div class="header">
+        <iframe src="./public/header.html" frameborder="0"></iframe>
+    </div>
+    <div class="daohang">
+        <p><a href="./index.html">首页 > </a></p>
+        <p><a id="tiao" href="./my.html">我的 > </a></p>
+        <p><a href="#">登录</a></p>
+    </div>
+
+    <ul class="tab">
+        <li class="liactive">密码登录</li>
+        <li>验证码快捷登录</li>
+    </ul>
+    <div class="mima ">
+        <input id="username1" type="text" placeholder="请输入手机号码">
+        <br>
+        <input id="pwd" type="password" placeholder="请输入密码">
+        <br>
+        <button class="denglu deng">立即登录</button>
+    </div>
+    <div class="mima yanzheng ">
+        <form action="#">
+            <input id="username2" type="text" placeholder="请输入手机号码">
+            <span class="fasong">发送验证码</span>
+        </form>
+        <input id="yanzhen" type="text" placeholder="请输入短信中的验证码">
+        <br>
+        <button class="denglu yanzhengm liji">立即登录</button>
+    </div>
+    <ul class="zhuce">
+        <li><a href="./login.html">立即注册</a></li>
+        <li><a href="./fortgetPwd.html">忘记密码</a></li>
+    </ul>
+    <p class="tishi"></p>
+
+
 
 </body>
 
 </html>
+<script src="./js/register.js"></script>
+<script>
+    // 如果登录成功了 那么点击我的会跳转到我的已经登录的状态
+    var tiao = document.querySelector('#tiao');
+    if (localStorage.getItem('istrue')) {
+        tiao.href = '../mylogin.html';
+    } else {
+        tiao.href = '../my.html';
+    }
+</script>

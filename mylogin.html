@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mylogin</title>
+    <link rel="stylesheet" href="./css/mylogin.css">
+    <script src="./js/setRem.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <iframe src="./public/header.html" frameborder="0"></iframe>
+    </div>
+    <div class="daohang">
+        <p><a href="./index.html">首页 > </a></p>
+        <p><a href="#">我的</a></p>
+    </div>
+    <div class="imgs">
+        <img src="./image/my/bg2.png" alt="">
+        <p class="yonghuxinxi">欢迎你，18686868686</p>
+    </div>
+    <div class="xinxibox">
+        <ul class="xinxi">
+            <li><a href="#">我关注的房源</a></li>
+            <li><a href="#">我关注的小区</a></li>
+            <li><a href="#">我关注的新房</a></li>
+            <li><a href="#">我的看房记录</a></li>
+        </ul>
+    </div>
+    <button class="tuichu">退出登录</button>
+
+</body>
+
+</html>
+<script>
+    // 退出登录的时候header
+    var tuichu = document.querySelector('.tuichu');
+    tuichu.onclick = function () {
+        location.href = './index.html';
+        localStorage.removeItem('istrue');
+    }
+    var yonghuxinxi = document.querySelector('.yonghuxinxi');
+    var name = localStorage.getItem('username');
+    yonghuxinxi.innerHTML = `欢迎你，${name}`
+
+
+</script>

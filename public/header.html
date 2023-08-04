@@ -14,7 +14,7 @@
     <!-- 头部 -->
     <header>
         <a id="imgs" href="#"> <img src="../image/index/logo.jpg" alt=""></a>
-        <a class="icon" href="#"><img src="../image/index/my.jpg" alt=""></a>
+        <a class="icon" id="tiao" target="_parent" href="../my.html"><img src="../image/index/my.jpg" alt=""></a>
         <a class="icon" href="#"><img src="../image/index/xiazai.jpg" alt=""></a>
 
     </header>
@@ -24,3 +24,13 @@
 
 </html>
 <script src="../js/setRem.js"></script>
+<script>
+    // 如果登录成功了 那么点击我的会跳转到我的已经登录的状态
+    var tiao = document.querySelector('#tiao');
+    if (localStorage.getItem('istrue')) {
+        tiao.href = '../mylogin.html';
+    } else {
+        tiao.href = '../my.html';
+    }
+
+</script>
